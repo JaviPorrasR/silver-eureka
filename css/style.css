@@ -374,7 +374,8 @@ header .icons #menu-bars {
     width: 100%;
   }
 }
-/* NUESTROS BARCOS */
+
+/* <!-- our services section starts  --> */
 
 .services .box-container {
   display: flex;
@@ -411,7 +412,9 @@ header .icons #menu-bars {
   object-fit: cover;
 }
 
-/*Cards*/
+/* <!-- our services section ends  --> */
+
+/* <!-- cards section starts  --> */
 
 .container-bloque-pesca {
   width: 100%;
@@ -629,6 +632,8 @@ header .icons #menu-bars {
   }
 }
 
+/* <!-- cards section ends  --> */
+
 /* <!-- captain Ron section starts  --> */
 
 .left {
@@ -732,14 +737,14 @@ header .icons #menu-bars {
 }
 
 /* <!-- captain Ron section ends --> */
+
 .separator-articles {
   width: 40%;
   border-bottom: 3px solid var(--primary);
   margin: 5% 30%;
 }
-/* <!-- patrón section starts  --> */
 
-
+/* <!-- patron section starts  --> */
 
 .contenedor-patron {
   display: flex;
@@ -771,9 +776,9 @@ header .icons #menu-bars {
 
 }
 
-/* <!-- patrón Javier section ends --> */
+/* <!-- patron section ends --> */
 
-/* SLIDER - QUE OFRECEMOS */
+/* <!-- slider section starts  --> */
 
 .slider {
   display: flex;
@@ -918,7 +923,8 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"] {
   }
 }
 
-/* <!-- SLIDER section ends --> */
+/* <!-- slider section ends --> */
+
 
 .featured .box-container {
   display: flex;
@@ -1320,7 +1326,8 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"] {
 
 /* QUÉ PESCAR */
 
-/* inicio de flip-cards */
+/* <!-- flip-cards section starts  --> */
+
 .pesca-container {
   margin: 10% 0;
 }
@@ -1460,7 +1467,8 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"] {
 
  
 }
-/* FIN de cards */
+
+/* <!-- flip-card section ends  --> */
 
 
 
@@ -1561,9 +1569,9 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"] {
   
 }
 
-/* <!-- FORMULARIO section ends --> */
 
-/*Boton de ir arriba*/
+
+/* <!-- scroll up button section starts  --> */
 
 #button-up {
   width: 40px;
@@ -1599,10 +1607,9 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"] {
   }
 }
 
+/* <!-- scroll up button section ends  --> */
 
-/*Boton de ir arriba ends --> */
-
-/* FOOTER */
+/* <!-- footer section starts  --> */
 
 .container {
   max-width: 1170px;
@@ -1627,7 +1634,7 @@ ul {
 .footer-col h4 {
   font-size: 18px;
   color: var(--aux);
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 35px;
   font-weight: 500;
   position: relative;
@@ -1647,7 +1654,7 @@ ul {
 }
 .footer-col ul li a {
   font-size: 16px;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--aux);
   text-decoration: none;
   font-weight: 300;
@@ -1677,6 +1684,8 @@ ul {
   color: #24262b;
   background-color: var(--aux);
 }
+
+/* <!-- footer section ends  --> */
 
 /*responsive*/
 @media (max-width: 767px) {
